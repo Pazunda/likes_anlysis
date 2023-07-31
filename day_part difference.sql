@@ -10,6 +10,9 @@ from(
        avg(likes) as avg_likes
   from posts
   group by day_part) t1;
+
+
+
   
   select 
       CASE
